@@ -4,6 +4,10 @@
 # Input:
 # n = 700 m = 750 Output: 2
 
+import math
+
+from math import ceil
+
 n=int(input("введите n ")) #сколько за 1 день проезжает машина
 m=int(input("введите m ")) #сколько всего км
 print((m+n-1)//n)
